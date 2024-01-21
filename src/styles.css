@@ -1,0 +1,288 @@
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+  
+section{
+    min-height: 100vh;
+    overflow-y: auto;
+    background-color:white;
+    border: solid black 1px;
+    overflow-x: auto;
+    
+}
+
+
+.hero{
+    background-color: #1c1d25;
+    color: white;
+    font-size: 40px;
+}
+
+footer{
+    height: 200px;
+    background-color: black;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-right: 25px;
+    margin-top: 30px;
+}
+
+li{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+h1{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-right: auto;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    
+  
+}
+
+p{
+    font-size: 20px;
+
+}
+
+.intro{
+    margin-top: 100px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 80px;
+    margin-left: 30px; 
+    margin-top: 25px;
+    
+}
+
+.skills-line {
+    width: 50%;
+    border: 2px solid #ccc;
+}
+
+
+.skills{
+    width: 1000px;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+
+.intro i{
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-left: auto;
+    
+    
+}
+
+.me{
+   
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    margin-bottom: 70px;
+
+    
+}
+
+.portfolio{
+    background-color: #1c1d25;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+.portfolio h2{
+    margin-left: 50px;
+}
+
+
+.Portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    justify-content: center;
+    gap: 2.3rem;
+    margin-top: 125px;
+    padding: 0 20px;
+    max-width: 1200px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.row img{
+    height: auto;
+    width: 100%;
+    border-radius: 28px;
+    margin-bottom: 1.4;
+
+}
+
+.row{
+    background: #2d343f;
+    border-radius: 28px;
+    border: 2px solid #FF8C00;
+    box-shadow: 0 0 5px var(--main-color);
+    padding: 20px;
+    transition: all .50s ease
+}
+       
+.main-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.row h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--other-color);
+}
+
+.row i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    font-size: 27px;
+    border-radius: 50%;
+    color: var(--text-color);
+    background: #e47b03;
+}
+
+.row h4{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.row:hover{
+    border: 2px solid #ffb700;
+    transform: translateY(-5px) scale(1.03);
+    cursor: pointer;
+}
+
+
+.hero li:hover{
+    border-bottom: 2px solid #e47b03;
+    transform: translateY(-5px) scale(1.03);
+    cursor: pointer;
+}
+
+#text2 {
+    margin-top: 60px;
+}
+
+
+
+#icon2{
+ margin-top: 90px;  
+}
+
+#icon3 {
+    margin-top: 20px;
+}
+
+#iconweb{
+    margin-top: 15px;
+}
+
+
+
+#icon1:hover, #icon2:hover, #icon3:hover, #iconweb:hover {
+    color: #2e2f37;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1c1d25;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px; 
+    margin: 0 auto;
+}
+
+.contact-title{
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 40px;
+}
+
+.contact-details {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+     
+}
+
+
+.contact-details p {
+   
+    font-size: 23px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    white-space: nowrap; 
+}
+
+.contact-details p i {
+    font-size: 30px;
+    margin-right: 15px; 
+}
+
+
+nav ul li a {
+    color: inherit;
+    text-decoration: none; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
