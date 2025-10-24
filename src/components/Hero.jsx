@@ -74,7 +74,7 @@ const Hero = () => {
         >
           <div className="image-wrapper">
             <motion.img
-              src="/src/img/My project-1.png"
+              src="/img/My project-1.png"
               alt="Jizhou Yang"
               className="profile-image"
               whileHover={{ scale: 1.05, rotate: 2 }}

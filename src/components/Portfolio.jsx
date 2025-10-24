@@ -8,7 +8,7 @@ const Portfolio = () => {
       id: 1,
       title: 'Pizza Ordering App',
       description: 'Pizza Customization and Ordering App for Android Platforms.',
-      image: '/src/img/project1.png',
+      image: '/img/project1.png',
       github: true,
       website: false,
       tags: ['Android', 'Java', 'Mobile']
@@ -17,7 +17,7 @@ const Portfolio = () => {
       id: 2,
       title: 'AI Image Generator',
       description: 'AI-Powered Image Generation with DALL-E API',
-      image: '/src/img/project2-1.png',
+      image: '/img/project2-1.png',
       github: true,
       website: true,
       tags: ['AI', 'React', 'API']
@@ -26,7 +26,7 @@ const Portfolio = () => {
       id: 3,
       title: 'Banking App',
       description: 'Banking application for Windows platforms',
-      image: '/src/img/project3.png',
+      image: '/img/project3.png',
       github: true,
       website: false,
       tags: ['Windows', 'C#', 'Desktop']
