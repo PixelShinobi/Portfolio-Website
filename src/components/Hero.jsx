@@ -31,6 +31,8 @@ const Hero = () => {
     { icon: 'fa-solid fa-database', name: 'Database', color: '#4DB33D' },
     { icon: 'fab fa-git', name: 'Git', color: '#F05032' },
     { icon: 'fa-brands fa-android', name: 'Android', color: '#3DDC84' },
+    { icon: 'fa-solid fa-server', name: 'Django', color: '#092E20' },
+    { icon: 'fa-solid fa-brain', name: 'Machine Learning', color: '#FF6F61' },
   ]
 
   return (
