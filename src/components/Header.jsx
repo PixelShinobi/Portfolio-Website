@@ -30,7 +30,7 @@ const Header = () => {
         whileHover={{ scale: 1.1, rotate: 5 }}
         transition={{ type: "spring", stiffness: 300 }}
       >
-        <img src="/src/img/planet-logo-Graphics-9678041-1-removebg.png" alt="logo" className="logo" />
+        <img src="/img/planet-logo-Graphics-9678041-1-removebg.png" alt="logo" className="logo" />
       </motion.div>
 
       <ul className="nav-menu">

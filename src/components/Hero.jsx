@@ -31,6 +31,8 @@ const Hero = () => {
     { icon: 'fa-solid fa-database', name: 'Database', color: '#4DB33D' },
     { icon: 'fab fa-git', name: 'Git', color: '#F05032' },
     { icon: 'fa-brands fa-android', name: 'Android', color: '#3DDC84' },
+    { icon: 'fa-solid fa-server', name: 'Django', color: '#092E20' },
+    { icon: 'fa-solid fa-brain', name: 'Machine Learning', color: '#FF6F61' },
   ]
 
   return (
@@ -74,7 +76,7 @@ const Hero = () => {
         >
           <div className="image-wrapper">
             <motion.img
-              src="/src/img/My project-1.png"
+              src="/img/My project-1.png"
               alt="Jizhou Yang"
               className="profile-image"
               whileHover={{ scale: 1.05, rotate: 2 }}
